@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Learning Platform</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background: #f4f4f4; 
+      margin: 0;
+    }
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 15px;
+      border: 1px solid #ddd;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .course {
+      border: 1px solid #ddd;
+      padding: 8px;
+      margin: 8px 0;
+      background: #fafafa;
+    }
+    .btn {
+      display: inline-block;
+      padding: 5px 10px;
+      background: #007bff;
+      color: #fff;
+      text-decoration: none;
+      font-size: 13px;
+      border-radius: 3px;
+    }
+    .btn:hover {
+      background: #005bb5;
+    }
+    label {
+      display: block;
+      margin-top: 5px;
+      font-size: 14px;
+    }
+    input, select {
+      width: 100%;
+      padding: 5px;
+      margin-top: 3px;
+      box-sizing: border-box;
+    }
+    .testimonial {
+      border-left: 3px solid #007bff;
+      padding-left: 8px;
+      margin: 8px 0;
+      font-size: 14px;
+    }
+    .name {
+      font-size: 12px;
+      color: #555;
+    }
+    hr {
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>SmartLearn</h1>
+  <p style="text-align:center;">Simple online learning platform for students.</p>
+
+  <hr>
+
+  <!-- Courses -->
+  <h2>Courses</h2>
+
+  <div class="course">
+    <strong>Web Development Basics</strong><br>
+    Learn HTML and CSS to build simple web pages.<br>
+    Duration: 4 weeks<br>
+    <a href="#enroll" class="btn">Enroll</a>
+  </div>
+
+  <div class="course">
+    <strong>Python for Beginners</strong><br>
+    Start coding with Python and basic programs.<br>
+    Duration: 6 weeks<br>
+    <a href="#enroll" class="btn">Enroll</a>
+  </div>
+
+  <div class="course">
+    <strong>C Programming Fundamentals</strong><br>
+    Learn variables, loops, and functions in C.<br>
+    Duration: 5 weeks<br>
+    <a href="#enroll" class="btn">Enroll</a>
+  </div>
+
+  <hr>
+
+  <!-- Enrollment -->
+  <h2 id="enroll">Enroll Now</h2>
+  <p>Fill this simple form to enroll in a course:</p>
+
+  <form>
+    <label>Your Name</label>
+    <input type="text" placeholder="Enter your name">
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email">
+
+    <label>Select Course</label>
+    <select>
+      <option>Web Development Basics</option>
+      <option>Python for Beginners</option>
+      <option>C Programming Fundamentals</option>
+    </select>
+
+    <br><br>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+
+  <hr>
+
+  <!-- Testimonials -->
+  <h2>Student Testimonials</h2>
+
+  <div class="testimonial">
+    “The web development course was very easy to understand. I built my first website!”
+    <div class="name">– Aditi, B.Tech Student</div>
+  </div>
+
+  <div class="testimonial">
+    “Python basics helped me a lot in my college projects.”
+    <div class="name">– Rohan, CS Student</div>
+  </div>
+
+  <div class="testimonial">
+    “SmartLearn is simple and perfect for beginners like me.”
+    <div class="name">– Neha, School Student</div>
+  </div>
+
+</div>
+
+</body>
+</html>
